@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style/find.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-upper">
+          <div class="navigation">
+            <div class="logo">
+              <a href="index.html">
+                <img src="./assets/img/Group 61.svg" alt="nav-logo" />
+              </a>
+            </div>
+            <a style="color: #f50f22" class="nav-links" href="#"
+              >Найти кандидата</a
+            >
+            <a class="nav-links" href="#">Попасть в базу</a>
+            <a class="nav-links" href="#">О сервисе</a>
+            <a class="nav-links" href="#">Портал</a>
+          </div>
+
+          <div class="login-search">
+            <input class="search-form" type="text" placeholder="Маркетолог" />
+            <a href="#">Инокентий</a>
+            <img src="./assets/img/Avatar.svg" alt="" />
+          </div>
+        </div>
+        <div class="header-lower">
+          <a href="#" class="nav-links">Маркетологи</a>
+          <a href="#" class="nav-links">Backend-разработчики</a>
+          <a href="#" class="nav-links">Дизайнеры</a>
+          <a href="#" class="nav-links">Менеджеры по продажам</a>
+          <a href="#" class="nav-links">Ещё</a>
+        </div>
+      </header>
+      <div class="main-block">
+        <div class="cards-candidate">
+          <div class="candidate-heading">
+            <h4>Результаты поиска по Маркетолог</h4>
+          </div>
+          <div class="candidate-block">
+           
+          </div>
+        </div>
+        <div class="filter">
+          <div class="filter-heading">
+            <h4>Фильтры</h4>
+          </div>
+          <div class="filter-parameter">
+            <div class="parameter-block">
+              <div class="parameter-1">
+                <img src="./assets/img/filter-icon.svg" alt="icon" />
+                <button>2 параметра</button>
+              </div>
+              <div class="parameter-2">
+                <button id="clear-btn">Очистить всё</button>
+              </div>
+            </div>
+          </div>
+          <div class="filter-search">
+            <div class="filter-salary">
+              <h4>Зарплата</h4>
+              <div class="input-btns">
+                <input class="input-border inp-salary-start" type="text" placeholder="от" />
+                <input class="inp-salary-end" type="text" placeholder="до" />
+              </div>
+            </div>
+            <div class="filter-age">
+              <h4>Возраст</h4>
+              <div class="input-btns">
+                <input class="input-border inp-age-start" type="text" placeholder="20" />
+                <input class="inp-age-end" type="text" placeholder="50" />
+              </div>
+            </div>
+            <div class="radios">
+              <label class="label">
+                <input type="radio" name="name1" class="radio all" />
+                <span id="radio1" class="fake"></span>
+                <span>Все</span>
+              </label>
+              <label class="label">
+                <input type="radio" name="name1" class="radio male" />
+                <span id="radio2" class="fake"></span>
+                <span>Мужчины</span>
+              </label>
+              <label class="label">
+                <input type="radio" name="name1" class="radio female" />
+                <span id="radio3" class="fake"></span>
+                <span>Женщины</span>
+              </label>
+            </div>
+            <div class="filter-btn">
+              <button id="btn-submit-filter">Применить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-links">
+        <div class="footer-link-1">
+          <h4>ЛИЦА. КАНДИДАТЫ</h4>
+          <div class="footer-link-1-links">
+            <a href="#">
+              <p>Найти кандидата</p>
+            </a>
+            <a href="#">
+              <p>Попасть в базу</p>
+            </a>
+            <a href="#">
+              <p>О сервисе</p>
+            </a>
+          </div>
+        </div>
+        <div class="footer-link-1">
+          <h4>ЛИЦА.Работа</h4>
+          <div class="footer-link-1-links">
+            <a href="#">
+              <p>Рекрутинг</p>
+            </a>
+            <a href="#">
+              <p>Конструктор подбора</p>
+            </a>
+            <a href="#">
+              <p>Аналитика подбора</p>
+            </a>
+          </div>
+        </div>
+        <div class="footer-link-1">
+          <h4>ЛИЦА. КАНДИДАТЫ</h4>
+          <div class="footer-link-1-links">
+            <a href="#">
+              <p>Найти кандидата</p>
+            </a>
+            <a href="#">
+              <p>Попасть в базу</p>
+            </a>
+            <a href="#">
+              <p>О сервисе</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-lower">
+        <div class="footer-lower-block">
+          <a href="#">
+            <span>ООО «ЛИЦА» </span>
+          </a>
+          <a href="#">
+            <span>Реквизиты | Правовая информация</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
